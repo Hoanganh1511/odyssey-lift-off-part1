@@ -6,7 +6,7 @@ import Pages from "./pages";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 const root = createRoot(document.getElementById("root"));
 const client = new ApolloClient({
-  uri: "https://graphql.org/swapi-graphql",
+  uri: "http://localhost:4000",
   cache: new InMemoryCache(),
 });
 root.render(
